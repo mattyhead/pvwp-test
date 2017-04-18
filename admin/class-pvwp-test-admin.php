@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 /**
  * The admin-specific functionality of the plugin.
@@ -141,7 +141,7 @@ class Pvwp_Test_Admin {
 	 */
 	 
 	public function display_plugin_setup_page() {
-	    include_once( 'partials/wp-cbf-admin-display.php' );
+	    include_once( 'partials/wp-pvwp-test-admin-display.php' );
 	}
 
 }
